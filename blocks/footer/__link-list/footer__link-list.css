@@ -1,0 +1,47 @@
+/* 
+margin-right: 18px;
+Устанавливает правый внешний отступ для элемента .footer__link-list равным 18 пикселям,
+что создает промежуток между элементами списка ссылок в футере.
+
+.footer__link-list:last-of-type {
+margin-right: 0;
+}
+Устанавливает правый внешний отступ для последнего элемента .footer__link-list равным 0,
+чтобы убрать промежуток справа от последней ссылки списка.
+*/
+.footer__link-list {
+    margin-right: 18px;
+  }
+  
+  .footer__link-list:last-of-type {
+    margin-right: 0;
+  }
+  
+  /* 
+  @media screen and (max-width: 568px)
+Медиа-запрос, который применяет стили для элементов .footer__link-list
+когда ширина экрана устройства меньше или равна 568 пикселям.
+
+.footer__link-list {
+margin-right: 0px;
+margin-bottom: 32px;
+}
+Изменяет правый внешний отступ для элементов .footer__link-list на 0 пикселей
+и добавляет внешний отступ снизу в размере 32 пикселя, чтобы создать вертикальный промежуток между элементами списка.
+
+.footer__link-list:last-of-type {
+margin-bottom: 48px;
+}
+Изменяет внешний отступ снизу для последнего элемента .footer__link-list на 48 пикселей,
+чтобы создать больший вертикальный промежуток снизу между последней ссылкой списка и следующим содержимым.
+  */
+  @media screen and (max-width: 568px) {
+    .footer__link-list {
+      margin-right: 0px;
+      margin-bottom: 32px;
+    }
+  
+    .footer__link-list:last-of-type {
+      margin-bottom: 48px;
+    }
+  }

@@ -1,0 +1,72 @@
+/* 
+- display: block;
+    Устанавливает элемент .header__lang-link как блочный элемент, что позволяет задать ему ширину и высоту, а также применять отступы и выравнивание по центру.
+
+- font-family: 'Inter', Arial, sans-serif;
+    Устанавливает шрифт текста элемента .header__lang-link. Сначала ищет шрифт "Inter" и использует его, если не найден, то переходит к шрифту "Arial", а затем к любому общему беззасечному (sans-serif) шрифту.
+
+- font-style: normal;
+    Устанавливает обычное начертание (не курсив) для текста элемента .header__lang-link.
+
+- font-weight: normal;
+    Устанавливает обычную толщину шрифта для текста элемента .header__lang-link.
+
+- font-size: 24px;
+    Устанавливает размер шрифта элемента .header__lang-link равным 24 пикселям.
+
+- line-height: 117%;
+    Устанавливает высоту строки для текста элемента .header__lang-link, что позволяет установить интервал между строками.
+
+- color: #FFFFFF;
+    Устанавливает цвет текста элемента .header__lang-link в белый (#FFFFFF).
+
+- text-decoration: none;
+    Удаляет подчеркивание для ссылок в элементе .header__lang-link.
+
+- transition: opacity .5s ease;
+    Добавляет плавный переход при изменении прозрачности элемента .header__lang-link в течение 0.5 секунды.
+*/
+
+.header__lang-link {
+    display: block;
+    font-family: 'Inter', Arial, sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 117%;
+    color: #FFFFFF;
+    text-decoration: none;
+    transition: opacity .5s ease;
+  }
+  
+/* 
+При наведении на элемент .header__lang-link:
+- .header__lang-link:hover {
+    opacity: .8;
+  }
+  Устанавливается прозрачность элемента .header__lang-link равной 0.8 (80%), что делает его немного прозрачным при наведении мыши, что является визуальной обратной связью для пользователя.
+*/
+
+  .header__lang-link:hover {
+    opacity: .8;
+  }
+
+/*
+Медиа-запрос для устройств с шириной экрана до 568 пикселей:
+- @media screen and (max-width: 568px)
+  Этот медиа-запрос активируется, когда ширина экрана меньше или равна 568 пикселям.
+
+  Внутри этого медиа-запроса, применяются следующие стили:
+  - font-size: 18px;
+      Устанавливает размер шрифта элемента .header__lang-link равным 18 пикселям.
+
+  - line-height: 111%;
+      Устанавливает высоту строки для текста элемента .header__lang-link, что позволяет установить немного меньший интервал между строками на устройствах с узкими экранами.
+*/
+
+  @media screen and (max-width: 568px) {
+    .header__lang-link {
+      font-size: 18px;
+      line-height: 111%;
+    }
+  }

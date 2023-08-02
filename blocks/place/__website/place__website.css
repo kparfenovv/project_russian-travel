@@ -1,0 +1,14 @@
+/* 
+- align-self: end;
+    Устанавливает вертикальное выравнивание элемента .place__website в конец (внизу) контейнера .place. 
+    Это позволяет элементу .place__website располагаться внизу своей ячейки в сетке .place.
+*/
+.place__website {
+    align-self: end;
+  }
+
+  @media screen and (max-width: 568px) {
+    .place__website {
+      padding-left: 16px;
+    }
+  }
