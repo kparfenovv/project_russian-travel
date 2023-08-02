@@ -50,11 +50,14 @@ The project is an adaptive single-page website, developed from a Figma prototype
 
 The project uses the following techniques:
 
-- Flexbox for element positioning
-- Grid-layout for creating the website's grid
-- Adaptive layout for screen sizes of 1280px, 1024px, 768px, 320px
-- BEM Nested methodology for organizing CSS selectors
-- CSS pseudoclasses for adding styles to elements
+- Grid-based layout using CSS Grid
+- Element positioning using Flexbox
+- Media queries for responsiveness across different screen resolutions
+- Applying BEM methodology for organizing selectors and CSS files
+- Usage of pseudo-elements for styling elements
+- Semantic HTML structure for better accessibility and SEO
+- Animations and transformations to enhance user experience
+- Web font integration for typography styling
 
 ## Future Improvements
 
