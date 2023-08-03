@@ -1,4 +1,4 @@
-# Проектная работа №3: Путешествие по России
+# Проектная работа Яндекс.Практикум: Путешествие по России
 
 Адаптивный одностраничный сайт, созданный по макету Figma. Сайт адаптирован для просмотра на экранах различных устройств от 320 пикселей до широких экранов 1280 пикселей. При вёрстке использован подход Desktop First.
 
@@ -36,7 +36,7 @@
 
 
 
-# Project 3: Travel across Russia
+# Project Yandex.Practicum: Travel across Russia
 
 This project is the final assignment from the third sprint of the "Web Developer" course by Yandex Practicum.
 
