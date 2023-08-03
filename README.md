@@ -28,9 +28,11 @@
 
 На странице может возникать проблема длительной загрузки из-за большого количества импортов блоков, элементов и модификаторов в основном файле стилей "./pages/index.css". Хотя все изображения были оптимизированы, и для тегов img был добавлен атрибут loading со значением "lazy", чтобы загрузка картинок не замедляла загрузку страницы. Этот атрибут позволяет загружать изображения не сразу, а по мере прокрутки пользователем, что помогает смягчить негативное влияние множества импортов в "./pages/index.css".
 
-## Ссылка 
+## Ссылки 
 
 [Ссылка на проект](https://kparfenovv.github.io/project_russian-travel/)
+
+[Ссылка на макет](https://www.figma.com/file/wd3QNOEPKhAZsrv9QhrZRE/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=28503%3A0&mode=design&t=jH9hbcnmjp79aXMw-1)
 
 
 
@@ -74,4 +76,5 @@ There are plans for further improving the project:
 
 [Link to the project](https://kparfenovv.github.io/project_russian-travel/)
 
+[Link to layout](https://www.figma.com/file/wd3QNOEPKhAZsrv9QhrZRE/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=28503%3A0&mode=design&t=jH9hbcnmjp79aXMw-1)
 
