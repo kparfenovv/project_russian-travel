@@ -76,5 +76,5 @@ There are plans for further improving the project:
 
 [Link to the project](https://kparfenovv.github.io/project_russian-travel/)
 
-[Link to layout](https://www.figma.com/file/wd3QNOEPKhAZsrv9QhrZRE/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=28503%3A0&mode=design&t=jH9hbcnmjp79aXMw-1)
+[Link to the layout](https://www.figma.com/file/wd3QNOEPKhAZsrv9QhrZRE/Sprint-3_-Russia-_-desktop-%2B-mobile?type=design&node-id=28503%3A0&mode=design&t=jH9hbcnmjp79aXMw-1)
 
