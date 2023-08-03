@@ -38,10 +38,6 @@
 
 # Project Yandex.Practicum: Travel across Russia
 
-This project is the final assignment from the third sprint of the "Web Developer" course by Yandex Practicum.
-
-## Description
-
 The project is an adaptive single-page website, developed from a Figma prototype. The site is optimized for viewing on screens of various devices, ranging from 320 pixels to wide screens of 1280 pixels, using the desktop-first approach.
 
 ## Stack
